@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         搜索引擎切换器 / Search Engine Switcher
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0
-// @description  在搜索引擎页面显示一个可拖拽的快速切换列表，支持更多搜索引擎，提高搜索效率。
+// @version      0.2.0
+// @description  在搜索引擎页面显示一个可拖拽的快速切换列表，支持更多搜索引擎，包括ChatGPT和秘塔搜索，提高搜索效率。
 // @author       WUJI
 // @match        *://www.google.com/search*
 // @match        *://www.google.com.hk/search*
@@ -10,6 +10,8 @@
 // @match        *://cn.bing.com/search*
 // @match        *://www.baidu.com/s*
 // @match        *://www.baidu.com/baidu*
+// @match        *://chatgpt.com/*
+// @match        *://metaso.cn/*
 // @match        *://weixin.sogou.com/weixin*
 // @match        *://search.bilibili.com/all*
 // @match        *://www.youtube.com/results*
@@ -18,7 +20,6 @@
 // @match        *://github.com/search*
 // @match        *://www.xiaohongshu.com/explore*
 // @match        *://www.douyin.com/search/*
-// @match        *://metaso.cn/*
 // @grant        unsafeWindow
 // @grant        window.onload
 // @run-at       document-body
