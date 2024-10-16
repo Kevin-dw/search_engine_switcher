@@ -32,6 +32,8 @@
         { name: "Google", searchUrl: "https://www.google.com/search?q=", keyName: "q", testUrl: /https:\/\/www\.google\.(com|com\.hk)\/search.*/ },
         { name: "Bing", searchUrl: "https://www.bing.com/search?q=", keyName: "q", testUrl: /https:\/\/(www|cn)\.bing\.com\/search.*/ },
         { name: "百度", searchUrl: "https://www.baidu.com/s?wd=", keyName: "wd", testUrl: /https:\/\/www\.baidu\.com\/(s|baidu).*/ },
+        { name: "ChatGPT", searchUrl: "https://chatgpt.com/?hints=search&q=", keyName: "q", testUrl: /https:\/\/chatgpt\.com\/.*/ },
+        { name: "秘塔", searchUrl: "https://metaso.cn/?q=", keyName: "q", testUrl: /https:\/\/metaso\.cn\/.*/ },
         { name: "微信", searchUrl: "https://weixin.sogou.com/weixin?type=2&s_from=input&query=", keyName: "query", testUrl: /https:\/\/weixin\.sogou\.com\/weixin.*/ },
         { name: "哔站", searchUrl: "https://search.bilibili.com/all?keyword=", keyName: "keyword", testUrl: /https:\/\/search\.bilibili\.com\/all.*/ },
         { name: "油管", searchUrl: "https://www.youtube.com/results?search_query=", keyName: "search_query", testUrl: /https:\/\/(www|m)\.youtube\.com\/results.*/ },
@@ -39,7 +41,6 @@
         { name: "GitHub", searchUrl: "https://github.com/search?q=", keyName: "q", testUrl: /https:\/\/github\.com\/search.*/ },
         { name: "小红书", searchUrl: "https://www.xiaohongshu.com/explore?q=", keyName: "q", testUrl: /https:\/\/www\.xiaohongshu\.com\/explore.*/ },
         { name: "抖音", searchUrl: "https://www.douyin.com/search/", keyName: "q", testUrl: /https:\/\/www\.douyin\.com\/search\/.*/ },
-        { name: "秘塔", searchUrl: "https://metaso.cn/?q=", keyName: "q", testUrl: /https:\/\/metaso\.cn\/.*/ },
     ];
 
     const ICON_SIZE = '32px';
