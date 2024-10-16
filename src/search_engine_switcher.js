@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2.0
 // @description  🚀 一键切换多个搜索引擎！支持Google、Bing、百度、ChatGPT等12大搜索平台。可拖拽、自动隐藏，提升您的搜索效率。适配暗黑模式，让搜索更智能、更便捷！
-// @author       WUJI
+// @author       WUJI (微信: wujiai666)
 // @match        *://www.google.com*/search*
 // @match        *://www.bing.com/search*
 // @match        *://cn.bing.com/search*
