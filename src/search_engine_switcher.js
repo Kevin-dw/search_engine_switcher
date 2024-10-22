@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         搜索引擎切换器 / Search Engine Switcher
 // @namespace    http://tampermonkey.net/
-// @version      0.2.0
-// @description  🚀 一键切换多个搜索引擎！支持Google、Bing、百度、ChatGPT等12大搜索平台。可拖拽、自动隐藏，提升您的搜索效率。适配暗黑模式，让搜索更智能、更便捷！
+// @version      0.2.1
+// @description  🚀 一键切换多个搜索引擎！支持Google、Bing、百度、ChatGPT、Perplexity等13大搜索平台。可拖拽、自动隐藏，提升您的搜索效率。适配暗黑模式，让搜索更智能、更便捷！
 // @author       WUJI (微信: wujiai666)
 // @match        *://www.google.com*/search*
 // @match        *://www.bing.com/search*
@@ -19,6 +19,7 @@
 // @match        *://github.com/search*
 // @match        *://www.xiaohongshu.com/explore*
 // @match        *://www.douyin.com/search/*
+// @match        *://www.perplexity.ai/*
 // @grant        unsafeWindow
 // @grant        window.onload
 // @run-at       document-body
@@ -41,6 +42,7 @@
         { name: "GitHub", searchUrl: "https://github.com/search?q=", keyName: "q", testUrl: /https:\/\/github\.com\/search.*/ },
         { name: "小红书", searchUrl: "https://www.xiaohongshu.com/explore?q=", keyName: "q", testUrl: /https:\/\/www\.xiaohongshu\.com\/explore.*/ },
         { name: "抖音", searchUrl: "https://www.douyin.com/search/", keyName: "q", testUrl: /https:\/\/www\.douyin\.com\/search\/.*/ },
+        { name: "Perplexity", searchUrl: "https://www.perplexity.ai/?q=", keyName: "q", testUrl: /https:\/\/www\.perplexity\.ai\/.*/ },
     ];
 
     const ICON_SIZE = '32px';
